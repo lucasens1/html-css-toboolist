@@ -16,6 +16,7 @@
     background-color: #edf2f7;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    margin: 20px auto;
 }
 
 .searchtool{
@@ -25,7 +26,8 @@
 
 .tasklist{
     width: 80%;
-    margin: 30px;
+    margin: 20px;
+    border-radius: 3px;
     background-color: #edf2f7;
 }
 
@@ -33,13 +35,16 @@
     border: solid 2px white;
 }
 
-.oldlist{
+.oldlist, .todaylist, .nextlist{
     background-color: white;
-    padding: 5px;
-    border-radius: 3px;
+    border: 1px solid lightslategray;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 10px;
+    width: 600px;
 }
 
-.oldlist li{
+ul li{
     display: inline-block;
 }
 
@@ -47,6 +52,7 @@
     padding: 8px;
     width: 30%;
     display: inline-block;
+    border-radius: 5px;
     border: 1px solid lightslategray;
 }
 
@@ -61,7 +67,8 @@
 }
 
 h2{
-    margin-bottom: 10px ;
+    margin-top: 5px;
+    margin-bottom: 5px ;
 }
 
 .subject{
@@ -76,9 +83,51 @@ h2{
     border-radius: 50%;
     line-height: 30px;
     text-align: center;
-    background-color: red;
+    border: 1px solid;
+}
+
+/*Colori delle materie e delle task*/
+
+.yes{
+    color: #64d5c1 ;
+}
+
+.nope{
+    color: #ff0808;
 }
 
 .edit{
     background-color: #09a9ed;
 }
+
+.goals{
+    background-color: #ab5de6;
+}
+
+.recruits{
+    background-color: #2cc6ab;
+}
+
+.mobile{
+    background-color:#ff9b00;
+}
+
+.website{
+    background-color: #ec4a9d;
+}
+
+.sales{
+    background-color: #a3d116;
+}
+
+.none{
+    display: none;
+}
+
+/*Metto il titolo come block */
+.lititle{
+    display: block;
+}
+
+/* Linethrough */
+
