@@ -73,9 +73,10 @@ h2{
 
 .subject{
     padding: 5px;
-    color: white;
     border-radius: 20px;
 }
+
+
 
 .check{
     height: 30px;
@@ -87,6 +88,9 @@ h2{
 }
 
 /*Colori delle materie e delle task*/
+.subjectitle{
+    color: white;
+}
 
 .yes{
     color: #64d5c1 ;
@@ -131,3 +135,15 @@ h2{
 
 /* Linethrough */
 
+.okay{
+    text-decoration: line-through;
+}
+
+.subject.mobile.okay,
+.subject.edit.okay,
+.subject.website.okay,
+.subject.sales.okay,
+.subject.goals.okay,
+.subject.recruits.okay{
+    text-decoration: line-through;
+}
